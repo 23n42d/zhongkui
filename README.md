@@ -1,4 +1,5 @@
-# zhongkui
+![Zhong_Kui](https://upload.wikimedia.org/wikipedia/commons/1/1b/ZhongKui-by-GongKai.jpg "Zhong_Kui")
+# Zhong_Kui
 # Instruction
 A deity in Chinese mythology,traditionally regarded as a vanquisher of ghosts and evil beings.
 # 钟馗
