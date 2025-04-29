@@ -1,8 +1,36 @@
 @echo off
-echo ±¾Åú´¦Àí½ö¹©Ñ§Ï°ÑĞ¾¿£¬ÇëÎğÓÃÓÚÉÌÒµĞĞÎª
-echo ÉÃ×Ô±ä¸üÊ¹ÓÃ·¶Î§Ëù²úÉúµÄÒ»ÇĞ·¨ÂÉºó¹û£¬Óë×÷ÕßÎŞ¹Ø
-echo ÇëÈ·ÈÏÒÑÊ¹ÓÃ¹ÜÀíÔ±È¨ÏŞÔËĞĞ
+echo æœ¬æ‰¹å¤„ç†ä»…ä¾›å­¦ä¹ ç ”ç©¶ï¼Œè¯·å‹¿ç”¨äºå•†ä¸šè¡Œä¸º
+echo æ“…è‡ªå˜æ›´ä½¿ç”¨èŒƒå›´æ‰€äº§ç”Ÿçš„ä¸€åˆ‡æ³•å¾‹åæœï¼Œä¸ä½œè€…æ— å…³
+echo è¯·ç¡®è®¤å·²ä½¿ç”¨ç®¡ç†å‘˜æƒé™è¿è¡Œ
 pause
+md "%ProgramFiles(x86)%\2345Explorer"
+md "%ProgramFiles(x86)%\2345Soft"
+md "%ProgramFiles(x86)%\PPTV"
+md "%ProgramFiles(x86)%\PPS"
+md "%ProgramFiles(x86)%\Youdao"
+md "%ProgramFiles(x86)%\YY"
+md "%ProgramFiles(x86)%\YYSoft"
+md "%ProgramFiles(x86)%\KuGou"
+md "%ProgramFiles(x86)%\Kuwo"
+md "%ProgramFiles(x86)%\Xunlei"
+md "%ProgramFiles(x86)%\Thunder Network"
+md "%ProgramFiles(x86)%\WPS Office"
+md "%ProgramFiles(x86)%\Tencent\TIM"
+md "%ProgramFiles(x86)%\Huorong"
+md "%ProgramFiles(x86)%\Anquanbao"
+md "%ProgramFiles(x86)%\WeGame"
+md "%ProgramFiles(x86)%\Lenovo\Lenovo App Store"
+md "%ProgramFiles(x86)%\Lenovo\LEMonitor"
+md "%ProgramFiles(x86)%\BaiduNetdisk"
+md "%ProgramFiles(x86)%\NetEase\CloudMusic"
+md "%ProgramFiles(x86)%\IObit"
+md "%ProgramFiles(x86)%\Driver Booster"
+md "%ProgramFiles(x86)%\iQiyiVideo"
+md "%ProgramFiles(x86)%\Wandoujia"
+md "%ProgramFiles(x86)%\WmMedia"
+md "%ProgramFiles(x86)%\2345PicView"
+md "%ProgramFiles(x86)%\2345Pinyin"
+md "%ProgramFiles(x86)%\Cheetah Mobile"
 md %systemdrive%\360Desktop
 md "%ProgramFiles(x86)%\2345Soft"
 md "%ProgramFiles(x86)%\360"
@@ -32,7 +60,7 @@ md "%ProgramFiles%\360"
 md "%ProgramFiles%\360AP"
 md "%ProgramFiles%\baidu"
 md "%ProgramFiles%\Kingsoft"
-md "%ProgramFiles%\¿ìÑ¹"
+md "%ProgramFiles%\å¿«å‹"
 md %ProgramData%\360Safe
 md %ProgramData%\Baofeng
 md %ProgramData%\DriveTheLife
@@ -60,15 +88,81 @@ md %userprofile%\AppData\Roaming\Finder\
 md %userprofile%\AppData\Roaming\juhuasuan
 md %userprofile%\AppData\Roaming\kuaiya
 md %userprofile%\AppData\Roaming\yxqxunyou
-md %userprofile%\Administrator\AppData\Roaming\¿ìÑ¹
-md %userprofile%\AppData\Roaming\Ñ¸À×ÓÎÏ·
-echo ¾¯¸æ£¡£¡£¡
-echo ¼´½«½ûÖ¹ÉÏÁĞÄ¿Â¼µÄÍêÈ«¿ØÖÆÈ¨ÏŞ
-echo ¿ÉÄÜµ¼ÖÂ¼ÆËã»úÎŞ·¨Õı³£ÔËĞĞ
-echo ²»Í¬ÒâÇëÖ±½Ó¹Ø±Õ
+md %userprofile%\Administrator\AppData\Roaming\å¿«å‹
+md %userprofile%\AppData\Roaming\è¿…é›·æ¸¸æˆ
+md %userprofile%\AppData\Roaming\BaiduNetdisk
+md %userprofile%\AppData\Roaming\PPS
+md %userprofile%\AppData\Roaming\PPTV
+md %userprofile%\AppData\Roaming\2345Explorer
+md %userprofile%\AppData\Roaming\2345Pinyin
+md %userprofile%\AppData\Roaming\2345PicView
+md %userprofile%\AppData\Roaming\Cheetah Mobile
+md %userprofile%\AppData\Roaming\WeGame
+md %userprofile%\AppData\Roaming\KuGou
+md %userprofile%\AppData\Roaming\Kuwo
+md %userprofile%\AppData\Roaming\Wandoujia
+md %userprofile%\AppData\Roaming\NetEase\CloudMusic
+md %userprofile%\AppData\Roaming\IObit
+md %userprofile%\AppData\Roaming\iQIYI
+md %userprofile%\AppData\Roaming\Thunder
+md %userprofile%\AppData\Roaming\WPS Office
+md %userprofile%\AppData\Roaming\YoudaoDict
+md %userprofile%\AppData\Roaming\LenovoApp
+md %userprofile%\AppData\Roaming\Driver Booster
+echo è­¦å‘Šï¼ï¼ï¼
+echo å³å°†ç¦æ­¢ä¸Šåˆ—ç›®å½•çš„å®Œå…¨æ§åˆ¶æƒé™
+echo å¯èƒ½å¯¼è‡´è®¡ç®—æœºæ— æ³•æ­£å¸¸è¿è¡Œ
+echo ä¸åŒæ„è¯·ç›´æ¥å…³é—­
 pause
-echo ÇëÔÙ´ÎÈ·ÈÏĞèÒª½ûÖ¹ÉÏÁĞÄ¿Â¼µÄÍêÈ«¿ØÖÆÈ¨ÏŞ
+echo è¯·å†æ¬¡ç¡®è®¤éœ€è¦ç¦æ­¢ä¸Šåˆ—ç›®å½•çš„å®Œå…¨æ§åˆ¶æƒé™
 pause
+:: æ–°å¢å¼¹çª—è½¯ä»¶ç›®å½•æƒé™é™åˆ¶
+Icacls "%ProgramFiles(x86)%\2345Explorer" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\PPTV" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\PPS" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Youdao" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\YY" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\YYSoft" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\KuGou" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Kuwo" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Xunlei" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Thunder Network" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\WPS Office" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Tencent\TIM" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Huorong" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Anquanbao" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\WeGame" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Lenovo\Lenovo App Store" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Lenovo\LEMonitor" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\BaiduNetdisk" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\NetEase\CloudMusic" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\IObit" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Driver Booster" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\iQiyiVideo" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Wandoujia" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\WmMedia" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\2345PicView" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\2345Pinyin" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles(x86)%\Cheetah Mobile" /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\BaiduNetdisk /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\PPS /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\PPTV /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\2345Explorer /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\2345Pinyin /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\2345PicView /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\Cheetah Mobile /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\WeGame /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\KuGou /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\Kuwo /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\Wandoujia /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\NetEase\CloudMusic /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\IObit /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\iQIYI /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\Thunder /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\WPS Office /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\YoudaoDict /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\LenovoApp /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\Driver Booster /deny administrators:(OI)(CI)(F)
 Icacls %systemdrive%\360Desktop /deny administrators:(OI)(CI)(F)
 Icacls "%ProgramFiles(x86)%\2345Soft" /deny administrators:(OI)(CI)(F)
 Icacls "%ProgramFiles(x86)%\360" /deny administrators:(OI)(CI)(F)
@@ -98,7 +192,7 @@ Icacls "%ProgramFiles%\360" /deny administrators:(OI)(CI)(F)
 Icacls "%ProgramFiles%\360AP" /deny administrators:(OI)(CI)(F)
 Icacls "%ProgramFiles%\baidu" /deny administrators:(OI)(CI)(F)
 Icacls "%ProgramFiles%\Kingsoft" /deny administrators:(OI)(CI)(F)
-Icacls "%ProgramFiles%\¿ìÑ¹" /deny administrators:(OI)(CI)(F)
+Icacls "%ProgramFiles%\å¿«å‹" /deny administrators:(OI)(CI)(F)
 Icacls %ProgramData%\360Safe /deny administrators:(OI)(CI)(F)
 Icacls %ProgramData%\Baofeng /deny administrators:(OI)(CI)(F)
 Icacls %ProgramData%\DriveTheLife /deny administrators:(OI)(CI)(F)
@@ -126,8 +220,8 @@ Icacls %userprofile%\AppData\Roaming\Finder /deny administrators:(OI)(CI)(F)
 Icacls %userprofile%\AppData\Roaming\juhuasuan /deny administrators:(OI)(CI)(F)
 Icacls %userprofile%\AppData\Roaming\kuaiya /deny administrators:(OI)(CI)(F)
 Icacls %userprofile%\AppData\Roaming\yxqxunyou /deny administrators:(OI)(CI)(F)
-Icacls %userprofile%\Administrator\AppData\Roaming\¿ìÑ¹ /deny administrators:(OI)(CI)(F)
-Icacls %userprofile%\AppData\Roaming\Ñ¸À×ÓÎÏ· /deny administrators:(OI)(CI)(F)
-echo ÔËĞĞ½áÊø£¬°´ÈÎÒâ¼üÍË³ö
+Icacls %userprofile%\Administrator\AppData\Roaming\å¿«å‹ /deny administrators:(OI)(CI)(F)
+Icacls %userprofile%\AppData\Roaming\è¿…é›·æ¸¸æˆ /deny administrators:(OI)(CI)(F)
+echo è¿è¡Œç»“æŸï¼ŒæŒ‰ä»»æ„é”®é€€å‡º
 pause
 exit
